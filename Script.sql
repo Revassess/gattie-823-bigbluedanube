@@ -95,6 +95,13 @@ SELECT questions, answer, category_id_fk FROM flashcard WHERE owner_id = 4;
 --I RAN OUT OF TIME. I AM WORRIED THAT MY LACK OF SPEED WILL BE PENALIZED.
 
 
-
+/*
+ *     SELECT p. p_id, p.cus_id, p.p_name, c1.name1, c2.name2  
+    FROM product AS p  
+    LEFT JOIN customer1 AS c1  
+    ON p.cus_id=c1.cus_id  
+    LEFT JOIN customer2 AS c2  
+    ON p.cus_id = c2.cus_id  
+ */
 
 
