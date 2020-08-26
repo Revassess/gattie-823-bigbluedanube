@@ -73,14 +73,6 @@ INSERT INTO app_user (username, PASSWORD, first_name, last_name, role_id_fk)
 	('IAmNoOne', 'facelessman', 'Arya', 'Stark', 2),
 	('JustKeepRowin', 'blacksmith', 'Gendry', 'Storm', 1);
 
-INSERT INTO study_set (name, owner_id_fk)
-	VALUES(baratheons, 1),
-	(baratheonzzz, 2),
-	(cerseiLovers, 3),
-	(iOnlyLuvMyself, 4),
-	(weAreNoOne, 5),
-	(rowinAllDay, 6);
-
 
 
 -- PROBLEM 3
@@ -96,8 +88,11 @@ SELECT * FROM study_set WHERE owner_id_fk = 5;
  */
 
 
+SELECT username FROM app_user  WHERE owner_id = 4;
 
+SELECT questions, answer, category_id_fk FROM flashcard WHERE owner_id = 4;
 
+--I RAN OUT OF TIME. I AM WORRIED THAT MY LACK OF SPEED WILL BE PENALIZED.
 
 
 
