@@ -15,7 +15,7 @@
 
 **Problem Set:**
   - Create a method that checks if two strings are equal and return the boolean result.
-    - Value: 10 points - YOU HAVE YET TO RETURN THE BOOLEAN. DO THAT.
+    - Value: 10 points
 
 
   - Implement a POJO using the provided UML class model
